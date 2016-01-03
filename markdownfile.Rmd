@@ -30,5 +30,9 @@ the mean is \(E(carat | cut=Ideal) = `r mean(subset(diamonds,cut="Ideal")$carat)
 ```{r echo =FALSE}
 summary(lm(price ~ carat,data=diamonds))
 ```
+```{r echo =FALSE}
+library(knitr)
+kable(table(diamonds$cut,diamonds$color),format="markdown")
+```
 
 
