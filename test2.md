@@ -1,100 +1,45 @@
-* item
-* item
-* item
-
-- item
-- item
-- item
-
-1. item 1
-2. item 2
-3. item 3
-
-nested lists
-
-1. item1
-  1. nested 
+---
+title: "Untitled"
+output: html_document
+---
 
 
- Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable**Project`.
++ [] xxxx
+  + [] xxxx
+  + [] xxxx
++ [x] xxxx
 
- Check out this neat program I wrote:
 
-```
-x = 0
-x = 2 + 2
-what is x
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+```r
+summary(cars)
 ```
 
-[Visit GitHub!](https://www.github.com)
-
-> wow_great_stuff
-> do_this_and_do_that_and_another_thing.
-
-http://example.com
-
-~~Mistaken text.~~
-
-Here's an example:
-
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
 ```
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+You can also embed plots, for example:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
 
-| Name | Description          |
-| ------------- | ----------- |
-| Help      | Display the help window.|
-| Close     | Closes a window     |
-
-
-| Name | Description          |
-| ------------- | ----------- |
-| Help      | ~~Display the~~ help window.|
-| Close     | _Closes_ a window     |
-
-
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-
-
-
-
-Roses are red  
-Violets are blue
-
-
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
 - [x] list syntax is required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
-
-- [ ] a bigger project
-  - [ ] first subtask #1234
-  - [ ] follow up subtask #4321
-  - [ ] final subtask cc @mention
-- [ ] a separate task
 
 
