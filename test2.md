@@ -78,8 +78,12 @@ Content Cell  | Content Cell
 | zebra stripes | are neat        |    $1 |
 
 
+
+
 Roses are red
 Violets are blue
+
+
 
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
