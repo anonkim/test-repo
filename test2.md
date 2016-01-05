@@ -4,9 +4,9 @@ output: html_document
 ---
 
 
-+ [] xxxx
-  + [] xxxx
-  + [] xxxx
++ [ ] xxxx
+  + [ ] xxxx
+  + [ ] xxxx
 + [x] xxxx
 
 
@@ -32,7 +32,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![plot of chunk unnamed-chunk-2](https://github.com/anonkim/test-repo/blob/master/figure/unnamed-chunk-2-1.png?raw=true) 
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
